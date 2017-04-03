@@ -13,7 +13,13 @@
 			"operatingsystem": "CentOS"
 		},
 		{
+			"operatingsystem": "Debian"
+		},
+		{
 			"operatingsystem": "RedHat"
+		},
+		{
+			"operatingsystem": "Ubuntu"
 		}
 	],
 	"requirements": [
@@ -33,4 +39,3 @@
 		}
 	]
 }
-

@@ -28,9 +28,7 @@ class l2mesh::params {
       $tinc_package_name        = 'tinc'
     }
     default: {
-      fail("Unsupported osfamily: ${::osfamily}
-operatingsystem: ${::operatingsystem},
-module ${module_name} only support osfamily RedHat and Debian")
+      fail("Unsupported osfamily: ${::osfamily}, operatingsystem: ${::operatingsystem}, module ${module_name} only support osfamily RedHat and Debian")
     }
   }
   file { '/var/lib/puppet':
